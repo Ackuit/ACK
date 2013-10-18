@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" ><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Panic Station</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Just+Another+Hand">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abril+Fatface">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mediaqueries.css">
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	</head>
+
+	<body>
+		
+		<!-- 
+		/*************************************************************************/
+		If you want to enable Google Maps on Background:
+		/*************************************************************************/
+		-->
+
+		<!-- <div id="contact_map" class="bg bg-contacts"></div>
+		<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false'></script>  -->
+		
+		<!-- 
+		/*************************************************************************/
+		If you want to enable Video as background:
+		/*************************************************************************/
+		-->
+		<div class="bg video">
+			
+			<div id="player">
+				
+				<!-- 
+				/*************************************************************************/
+				Youtube Video (Just add the ID):
+				/*************************************************************************/
+				-->
+				
+				<!-- <script>var youtube_video_id = 'bpOSxM0rNPM';</script> -->
+				
+				<!-- 
+				/*************************************************************************/
+				Vimeo Video (Just add the ID):
+				/*************************************************************************/
+				-->
+	
+				<!-- <script>var vimeo_video_id = '69882318';</script>
+				<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+				<iframe id="player_vimeo" src="http://player.vimeo.com/video/69882318?api=1&amp;player_id=player_vimeo&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" width="100%" height="100%" frameborder="0"></iframe> -->
+
+			</div>
+
+		</div>
+		<!-- End Video Background -->
+
+		<div id="mask-shape" class="unloaded">
+			<div id="loader"></div>
+		</div>
+
+		<!-- Begin Header -->
+		<div class="container">
+			<div class="row">
+
+				<!-- Begin Section Social -->
+				<div class="social hidden-phone span12">
+					<div class="twitterfeed pull-right visible-desktop">
+						<div class="row">
+							<div class="twitter-feed-icon span1"></div>
+							<div class="twitter-feed span3"></div>
+						</div>
+					</div>
+
+					<div class="social-icons span8 pull-right">
+						<!-- Social Profiles. -->
+						<ul class="social-profiles pull-right text-right unstyled inline">
+							<li class="newsletter animated fast delay00 fadeInDown"><a href="#" class="newsletter_form"><span>Join our<br>mailing list</span></a></li>
+
+							<li class="language_list animated fast delay01 fadeInDown">
+								<a href="#" class="language">EN</a>
+								<ul class="unstyled hide" style="display: none;">
+									<li class="current-language animated fast delay02 fadeInDown">EN</li>
+									<li class="animated fast delay03 fadeInDown"><a href="#pt">PT</a></li>
+									<li class="animated fast delay04 fadeInDown"><a href="#es">ES</a></li>
+									<li class="animated fast delay05 fadeInDown"><a href="#fr">FR</a></li>
+								</ul>
+							</li>
+
+							<li class="sep animated fast delay06 fadeInDown"></li>
+
+							<li class="facebook"><a href="http://facebook.com/" target="_blank"></a></li>
+							<li class="gplus"><a href="https://plus.google.com" target="_blank"></a></li>
+							<li class="pinterest"><a href="http://pinterest.com/" target="_blank"></a></li>
+							<li class="twitter"><a href="https://twitter.com/" target="_blank"></a></li>
+
+							<!-- <li class="linkedin"><a href="http://linkedin.com/" target="_blank"></a></li>
+							<li class="dribbble"><a href="http://dribbble.com/" target="_blank"></a></li>
+							<li class="github"><a href="https://github.com/" target="_blank"></a></li>
+							<li class="flickr"><a href="http://www.flickr.com/" target="_blank"></a></li>
+							<li class="vimeo"><a href="https://vimeo.com/" target="_blank"></a></li>
+							<li class="tumblr"><a href="https://www.tumblr.com/" target="_blank"></a></li>
+							<li class="stumbleupon"><a href="http://www.stumbleupon.com/" target="_blank"></a></li>
+							<li class="lastfm"><a href="http://www.last.fm/‎" target="_blank"></a></li>
+							<li class="instagram"><a href="http://instagram.com/" target="_blank"></a></li>
+							<li class="skype"><a href="http://www.skype.com/" target="_blank"></a></li>
+							<li class="soundcloud"><a href="https://soundcloud.com/" target="_blank"></a></li> -->
+						</ul>
+					</div>
+				</div>
+				<!-- End Section Social -->
+
+				<header class="span4 nav-wrapper">
+					<div class="row">
+						<figure class="offset1 span2">
+							<a class="index" href="/">
+								<img class="noretina" src="img/logo.png" alt="Panic Station" title="Panic Station">
+								<img class="retina" src="img/logo@2x.png" alt="Panic Station" title="Panic Station">
+							</a>
+						</figure>
+
+						</div>
+						<div class="row">
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">MENU</a>
+							<!-- Begin Navigation -->
+							<nav class="offset1 span2 nav-collapse collapse" id="navigation">
+								<ul class="nav">
+									<li class="current-menu-item active dropdown-submenu pt-mainmenu">
+										<a href="/" data-toggle="dropdown" data-target="#"  class="menu1 dropdown-toggle" >Home <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="current-menu-item current_page_item active"><a href="welcome-1.html" class="menu2" >Welcome 1</a></li>
+											<li class=""><a href="welcome-2.html" class="menu3" >Welcome 2</a></li>
+											<li class=""><a href="welcome-3.html" class="menu4" >Welcome 3</a></li>
+											<li class=""><a href="welcome-4.html" class="menu5" >Welcome 4</a></li>
+											<li class=""><a href="welcome-5.html" class="menu6" >Welcome 5</a></li>
+										</ul>
+									</li>
+									<li class="menu-item dropdown-submenu pt-mainmenu">
+										<a href="#" data-toggle="dropdown" data-target="#"  class="menu7 dropdown-toggle" >Pages <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class=""><a href="about-me.html" class="menu8" >About Me</a></li>
+											<li class=""><a href="about-us.html" class="menu9" >About us</a></li>
+											<li class=""><a href="team.html" class="menu10" >Team Members</a></li>
+											<li class=""><a href="our-office.html" class="menu11" >Our Office</a></li>
+											<li class=""><a href="services.html" class="menu12" >Services</a></li>
+											<li class=""><a href="services-2.html" class="menu13" >Services 2</a></li>
+										</ul>
+									</li>
+									<li class="menu-item dropdown-submenu pt-mainmenu">
+										<a href="#" data-toggle="dropdown" data-target="#" class="menu14 dropdown-toggle" >Works <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class=""><a href="portfolio-1.html" class="menu15" >1 Column</a></li>
+											<li class=""><a href="portfolio-2.html" class="menu16" >2 Columns</a></li>
+											<li class=""><a href="portfolio-3.html" class="menu17" >3 Columns</a></li>
+											<li class=""><a href="portfolio-4.html" class="menu18" >Big images</a></li>
+										</ul>
+									</li>
+
+									<li class="menu-item"><a href="blog.html" class="menu19" >Blog</a></li>
+									<li class="menu-item"><a href="contact.html" class="menu20" >Contact</a></li>
+									
+								</ul>
+							</nav>
+							<!-- End Navigation -->
+						</div>
+						<div class="subnav-layer"></div>
+					</header>
+					<div class="span8 offset4 wrapper">
+						
+						<section id="blog" class="main show blog blog-single">
+							<h1 class="fixed">Blog</h1>
+							<div class="row-fluid">
+								<div class="offset2 span6">
+									<h2 class="fixed"></h2>
+								</div>
+							</div>
+							<div class="content row">
+								<div class="span8 figure-wrapper">
+									<figure><img width="800" height="314" src="img/blog/mbareview-5-800x314.jpg" class="attachment-blog-featured wp-post-image" alt="mbareview-5" /></figure>
+								</div>
+							</div>
+							<div class="content row-fluid">
+								<div class="span3 sidebar-blog hidden-phone">
+									<aside id="search-2" class="widget widget_search">
+										<h6>Search&#8230;</h6>
+										<form method="get" class="search-form" action="#">
+											<fieldset class="relative">
+												<input type="text" name="s" id="s" class="input-block-level" placeholder="Search ..." value="" />
+												<button type="submit" class="submit" name="submit" id="searchsubmit"></button>
+											</fieldset>
+										</form>
+									</aside>
+									<aside id="categories-2" class="widget widget_categories">
+										<h6>Categories</h6>
+										<ul>
+											<li class="cat-item cat-item-9"><a href="#category/apps/" title="View all posts filed under Apps">Apps</a> (4)</li>
+											<li class="cat-item cat-item-34"><a href="#category/games/" title="View all posts filed under Games">Games</a> (1)</li>
+											<li class="cat-item cat-item-36"><a href="#category/misc/" title="View all posts filed under Misc">Misc</a> (1)</li>
+											<li class="cat-item cat-item-35"><a href="#category/products/" title="View all posts filed under Products">Products</a> (1)</li>
+											<li class="cat-item cat-item-33"><a href="#category/tech/" title="View all posts filed under Tech">Tech</a> (3)</li>
+										</ul>
+									</aside>
+									<aside id="pt_recent_posts_widget-2" class="widget pt_recent_posts_widget">
+										<h6>Latest News</h6>
+										<ul>
+											<li>
+												<a href="blog-post.html" title="Is Google Building a Games Console?" class="image">
+													<img width="74" height="50" src="img/blog/144948918-74x50.jpg" class="attachment-blog-featured-widget wp-post-image" alt="144948918" />					
+													<p class="post-title span9">
+														Is Google Building a Games Console?				
+													</p>
+													<span class="post-date span12">June 28, 2013</span>
+												</a>
+											</li>
+											<li>
+												<a href="blog-post.html" title="Google Glass: Operating Room" class="image">
+													<img width="74" height="50" src="img/blog/google-glass-12-of-12-74x50.jpg" class="attachment-blog-featured-widget wp-post-image" alt="google-glass-12-of-12" />					
+													<p class="post-title span9">
+														Google Glass: Operating Room				
+													</p>
+													<span class="post-date span12">June 28, 2013</span>
+												</a>
+											</li>
+											<li>
+												<a href="blog-post.html" title="Is It the Dawn of the Encryption App?" class="image">
+													<img width="74" height="50" src="img/blog/Crypto2WEB-74x50.jpg" class="attachment-blog-featured-widget wp-post-image" alt="Crypto2WEB" />					
+													<p class="post-title span9">
+														Is It the Dawn of the Encryption App?				
+													</p>
+													<span class="post-date span12">June 28, 2013</span>
+												</a>
+											</li>
+										</ul>
+									</aside>
+									<aside id="pt_video_widget-2" class="widget pt_video_widget">
+										<h6>Video</h6>
+										<a href="https://www.youtube.com/watch?v=XKcwNIPiGKc" class="popup mfp-iframe">
+											<img src="http://img.youtube.com/vi/XKcwNIPiGKc/hqdefault.jpg">
+											<div class="video-title">
+												<span class="play-icon">&#9656;</span>
+												<p>The Last of Us</p>
+											</div>
+										</a>
+									</aside>
+									<aside id="tag_cloud-2" class="widget widget_tag_cloud">
+										<h6>Tags</h6>
+										<div class="tagcloud"><a href='#tag/apps-2/' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>APPS</a>
+											<a href='#tag/business/' class='tag-link-10' title='1 topic' style='font-size: 8pt;'>Business</a>
+											<a href='#tag/encryption/' class='tag-link-16' title='1 topic' style='font-size: 8pt;'>ENCRYPTION</a>
+											<a href='#tag/evernone/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Evernone</a>
+											<a href='#tag/medicine/' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>MEDICINE</a>
+											<a href='#tag/mobile/' class='tag-link-17' title='2 topics' style='font-size: 22pt;'>MOBILE</a>
+											<a href='#tag/nsa/' class='tag-link-18' title='1 topic' style='font-size: 8pt;'>NSA</a>
+											<a href='#tag/privacy/' class='tag-link-19' title='1 topic' style='font-size: 8pt;'>PRIVACY</a>
+											<a href='#tag/startup/' class='tag-link-12' title='1 topic' style='font-size: 8pt;'>Startup</a>
+											<a href='#tag/tech/' class='tag-link-21' title='2 topics' style='font-size: 22pt;'>TECH</a>
+											<a href='#tag/u-s/' class='tag-link-22' title='1 topic' style='font-size: 8pt;'>U.S.</a>
+											<a href='#tag/world/' class='tag-link-24' title='1 topic' style='font-size: 8pt;'>WORLD</a>
+										</div>
+									</aside>
+									<aside id="text-2" class="widget widget_text">
+										<h6>Welcome to our blog</h6>
+										<div class="textwidget">This is a blog page, it displays your latest or selected posts. You can choose from various post types, layouts.</div>
+									</aside>
+									<aside id="archives-2" class="widget widget_archive">
+										<h6>Archives</h6>
+										<ul>
+											<li><a href='blog.html' title='June 2013'>June 2013</a></li>
+										</ul>
+									</aside>
+								</div>
+								<div class="span8 offset1 mt20">
+									<div class="row-fluid">
+										<div class="span9">
+											<h2>MacBook Air 2013</h2>
+										</div>
+										<div class="span3">
+											<p class="subtitle"><em>June 28, 2013</em><br><em>0 Comments</em></p>
+										</div>
+									</div>
+									<div class="row-fluid">
+										<div class="span12">
+											<p id="paragraph1">Toby’s Estate Coffee in Brooklyn should be my favorite local coffee shop. The Australian company’s first US location is big and bright, with ample seating, great service, and terrific coffee — the ultra-expensive Strada variable-pressure espresso machine behind the bar sees to that. It’s also full of attractive young people hellbent on challenging traditional notions of fashion, beauty, and exactly what constitutes a pair of pants. The entire experience is delightful.</p>
+											<p id="paragraph4">There’s only one problem: there are exactly zero power outlets in the joint.</p>
+											<p id="paragraph7">The lack of power is rumored to be deliberate; a gentle way to keep patrons from lingering all day over laptops while sipping $2.75 Americanos. Sure, you’ll see the occasional laptop owner try and settle in for a few hours, but panic sets in fast — eventually fear drives everyone to make a move, freeing up seats for the next wave of creative-class nomads to try and beat the clock while sucking down fresh cups of joe.</p>
+											<p><a href="img/blog/mbareview-3.jpg"><img class="size-full wp-image-234 alignnone" alt="mbareview-3" src="img/blog/mbareview-3.jpg" width="1020" height="676" /></a></p>
+											<p id="paragraph8">But Apple’s new 13-inch MacBook Air might change Toby’s for good — it’s almost exactly the same externally as <a href="http://www.theverge.com/2012/6/21/3096254/macbook-air-review-13-inch-mid-2012">last year’s model</a>, but a revised chipset inside offers a claimed 12-hour battery life with improved graphics performance and even faster Wi-Fi speeds if you have a compatible router. In short, Apple’s just taken the best overall laptop on the market and turned it into a declaration of war against coffee shops everywhere.</p>
+											<h2>All day</h2>
+											<p id="paragraph22"><em>13 hours and 29 minutes.</em> That’s all you really need to know — that’s how long the new MacBook Air running Safari lasted running The Verge Battery Test, which cycles through a series of websites and images at 65 percent brightness. Run time in Chrome was shorter, at 11 hours and 29 minutes, but both are still ridiculously impressive. In fact, it’s the record for a laptop running our test without an external battery.</p>
+											<div>
+												<p id="paragraph23"><q>13 hours and 29 minutes. That&#8217;s really all you need to know.</q></p>
+											</div>
+											<p id="paragraph24">This insane battery life is enabled by Intel’s new Haswell chips, which will spring up on laptops across the industry in the coming weeks. Apple’s actually managed to outperform Intel’s standard Haswell battery life claims with the new Air; we’ll have to see how Windows machines with the new chips compare.</p>
+											<p id="paragraph25">While Haswell offers dramatic battery life improvements, performance is slightly different story. The base model $1,099 Air I tested has a 1.3GHz Core i5 processor, clocked lower than the previous model’s 1.8GHz chip. Apple says the more efficient Haswell chip should perform about the same, but the benchmarks indicate that it’s the tiniest bit slower — 6,057 in Geekbench vs. 6,197 for the older version. I didn’t notice any difference in real world usage, and I’m happy to take the extremely slight performance hit for more than double the battery life. I suspect most consumers buying a base model laptop will feel the same way. (I do think the 128GB of storage in the base model is a little skimpy — you can get 256GB for $200 more, which feels a little expensive but is probably worth it.)</p>
+											<p id="paragraph26"><q>A slight performance hit for more than double the battery life</q></p>
+											<p id="paragraph27">Apple does say the new Air should have 40 percent faster graphics, and while you still won’t want to rely on the integrated Intel graphics card for any high-end photo or video work, it’s certainly passable. I played <i>Portal 2</i> and <i>Half-Life 2: Episode 2</i> without any issues at native resolution. But the Air has never been a gaming laptop, and you shouldn’t look to the new model to change that.</p>
+											<p id="paragraph28">If you have a brand-new router with 802.11ac support, you’ll find the the Air supports even faster Wi-Fi networking than before — up to three times faster, in fact. Apple is selling two such routers now, the $199 Airport Extreme and the $299 Time Capsule; I didn’t have any units to test with. But expect all new routers to support the standard; the Air will be ready as the world upgrades.</p>
+											<p><a href="img/blog/mbareview-1.jpg"><img class="alignleft size-full wp-image-233" alt="mbareview-1" src="img/blog/mbareview-1.jpg" width="1020" height="676" /></a></p>
+											<p><small class="opcty05"><em></em></small></p>
+										</div>
+									</div>
+									<hr>
+									<div class="row-fluid">
+										<section class="comments">
+											<div id="errorContainer"></div>
+											<div class="comment-form-header">
+												<div id="respond">
+													<h3 id="reply-title">
+														<div class="title_reply entypo">&#59160;</div>
+														<h5>Leave a Comment</h5>
+														<p class="opcty08">Make sure you fill in all required fields.</p>
+														<small><a rel="nofollow" id="cancel-comment-reply-link" href="/wordpress/wp/macbook-air-2013/#respond" style="display:none;"> - Cancel Comment</a></small>
+													</h3>
+													<form action="#" method="post" id="commentform">
+														<div class="row-fluid">
+															<div class="span12">
+																<div class="controls controls-row"><input id="author" name="author" type="text" value=""  aria-required='true' required class="span4" placeholder="Name">
+																	<input id="email" name="email" type="email" value=""  aria-required='true' required class="span4" placeholder="Email">
+																	<input id="url" name="url" type="url" value=""  class="span4" placeholder="Website">
+																</div>
+																<textarea id="comment" name="comment" cols="45" rows="3" aria-required="true" required  class="span12" placeholder="Message"></textarea>
+															</div>
+														</div>
+														<p class="form-submit">
+															<input name="submit" type="submit" id="submit" value="SUBMIT COMMENT" />
+															<input type='hidden' name='comment_post_ID' value='232' id='comment_post_ID' />
+															<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+														</p>
+														<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="881c089523" /></p>
+														<input type="hidden" name="icl_comment_language" value="en" />
+													</form>
+												</div>
+												<!-- #respond -->
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+
+
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="container">
+
+					<div class="twitterfeed visible-tablet">
+						<div class="row">
+							<div class="twitter-feed"></div>
+						</div>
+						<div class="row">
+							<div class="twitter-icon">&#62217;</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="copyright offset1 span3">
+							<!-- Footer Navigation -->
+							<!-- <ul id="menu-footer" class="footer-nav unstyled opcty06">
+								<li><a href="#">Terms and Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>  -->
+							
+							<p class="opcty06">© 2013<br>PIXELTHRONE</p>
+
+						</div>
+					</div>
+
+				</div>
+			</footer>
+
+			<div id="lightwindow">
+				<div id="lightwindow-content" class="hide"></div>
+			</div>
+
+			<!-- Begin Mailing List -->
+			<div class="mailing-list-ajax newsletter_form_ajax hide">
+				<a class="close"></a>
+				<div class="container">
+					<div class="row">
+						<div class="offset2 span8">
+							<h1 class="animated delay05 fadeInUp">Join our<br>mailing list</h1>
+							<h2 class="animated delay010 fadeInUp">to stay up date</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="span2 offset1">
+							<div class="message-wrapper">
+								<div class="message">Please enter a valid e-mail</div>
+								<div class="message-arrow"></div>
+							</div>
+						</div>
+						<div class="span6">
+							<form method="post" id="newsletter" action="newsletter.php" class="animated delay15 fadeInUp">
+								<input type="text" class="input-block-level" name="email" placeholder="Your e-mail">
+								<button>- show me your world</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Mailing List -->
+
+			<div id="fb-root"></div>
+
+			<!-- Javascript -->
+			<script>
+
+				Modernizr.load([
+					{ load : 'http://connect.facebook.net/en_US/all.js#xfbml=1' },
+					{ load : 'http://platform.twitter.com/widgets.js' }
+				]);
+
+				/* Config Vars*/
+
+				var config = {
+					"base_color" : "#ffffff",
+					"contact_form_submit" : "contact-form.php",
+					"newsletter_form_submit" : "newsletter-form.php",
+					"pt_twitter_username" : "pixelthrone",
+					"pt_twitter_count" : "3",
+					"pt_twitter_path" : "\/libs\/twitter\/",
+					"portfolio_items_page" : "",
+					"blog_items_page" : "",
+					"google_maps_circle_color" : "#000000",
+					"google_maps_landscape_color" : "#cccccc",
+					"google_maps_water_color" : "#aaaaaa",
+					"google_maps_zoom" : "4",
+					"pt_google_maps_latitude_1" : 39.810745,
+					"pt_google_maps_longitude_1" : -7.512589,
+					"pt_google_maps_title_popover_1" : "",
+					"pt_google_maps_text_popover_1" : "",
+					"pt_google_maps_latitude_2" : "",
+					"pt_google_maps_longitude_2" : "",
+					"pt_google_maps_title_popover_2" : "",
+					"pt_google_maps_text_popover_2" : "",
+					"pt_google_maps_latitude_3" : "",
+					"pt_google_maps_longitude_3" : "",
+					"pt_google_maps_title_popover_3" : "",
+					"pt_google_maps_text_popover_3" : "",
+					"pt_google_maps_latitude_4" : "",
+					"pt_google_maps_longitude_4" : "",
+					"pt_google_maps_title_popover_4" : "",
+					"pt_google_maps_text_popover_4" : ""
+				};
+
+				/* Images for Background Slideshow */
+				var pt_supersized_slides = [
+					{"image" : "img/background/1.jpg"},
+					{"image" : "img/background/2.jpg"},
+					{"image" : "img/background/3.jpg"},
+					{"image" : "img/background/4.jpg"}
+				];
+
+			</script>
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+			<script src="js/vendor/retina-2x/retina.js"></script>
+			<script src="js/plugins.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
+</html>

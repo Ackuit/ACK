@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" ><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Panic Station</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Just+Another+Hand">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abril+Fatface">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mediaqueries.css">
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	</head>
+
+	<body>
+		
+		<!-- 
+		/*************************************************************************/
+		If you want to enable Google Maps on Background:
+		/*************************************************************************/
+		-->
+
+		<!-- <div id="contact_map" class="bg bg-contacts"></div>
+		<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false'></script>  -->
+		
+		<!-- 
+		/*************************************************************************/
+		If you want to enable Video as background:
+		/*************************************************************************/
+		-->
+		<div class="bg video">
+			
+			<div id="player">
+				
+				<!-- 
+				/*************************************************************************/
+				Youtube Video (Just add the ID):
+				/*************************************************************************/
+				-->
+				
+				<!-- <script>var youtube_video_id = 'bpOSxM0rNPM';</script> -->
+				
+				<!-- 
+				/*************************************************************************/
+				Vimeo Video (Just add the ID):
+				/*************************************************************************/
+				-->
+	
+				<!-- <script>var vimeo_video_id = '69882318';</script>
+				<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+				<iframe id="player_vimeo" src="http://player.vimeo.com/video/69882318?api=1&amp;player_id=player_vimeo&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" width="100%" height="100%" frameborder="0"></iframe> -->
+
+			</div>
+
+		</div>
+		<!-- End Video Background -->
+
+		<div id="mask-shape" class="unloaded">
+			<div id="loader"></div>
+		</div>
+
+		<!-- Begin Header -->
+		<div class="container">
+			<div class="row">
+
+				<!-- Begin Section Social -->
+				<div class="social hidden-phone span12">
+					<div class="twitterfeed pull-right visible-desktop">
+						<div class="row">
+							<div class="twitter-feed-icon span1"></div>
+							<div class="twitter-feed span3"></div>
+						</div>
+					</div>
+
+					<div class="social-icons span8 pull-right">
+						<!-- Social Profiles. -->
+						<ul class="social-profiles pull-right text-right unstyled inline">
+							<li class="newsletter animated fast delay00 fadeInDown"><a href="#" class="newsletter_form"><span>Join our<br>mailing list</span></a></li>
+
+							<li class="language_list animated fast delay01 fadeInDown">
+								<a href="#" class="language">EN</a>
+								<ul class="unstyled hide" style="display: none;">
+									<li class="current-language animated fast delay02 fadeInDown">EN</li>
+									<li class="animated fast delay03 fadeInDown"><a href="#pt">PT</a></li>
+									<li class="animated fast delay04 fadeInDown"><a href="#es">ES</a></li>
+									<li class="animated fast delay05 fadeInDown"><a href="#fr">FR</a></li>
+								</ul>
+							</li>
+
+							<li class="sep animated fast delay06 fadeInDown"></li>
+
+							<li class="facebook"><a href="http://facebook.com/" target="_blank"></a></li>
+							<li class="gplus"><a href="https://plus.google.com" target="_blank"></a></li>
+							<li class="pinterest"><a href="http://pinterest.com/" target="_blank"></a></li>
+							<li class="twitter"><a href="https://twitter.com/" target="_blank"></a></li>
+
+							<!-- <li class="linkedin"><a href="http://linkedin.com/" target="_blank"></a></li>
+							<li class="dribbble"><a href="http://dribbble.com/" target="_blank"></a></li>
+							<li class="github"><a href="https://github.com/" target="_blank"></a></li>
+							<li class="flickr"><a href="http://www.flickr.com/" target="_blank"></a></li>
+							<li class="vimeo"><a href="https://vimeo.com/" target="_blank"></a></li>
+							<li class="tumblr"><a href="https://www.tumblr.com/" target="_blank"></a></li>
+							<li class="stumbleupon"><a href="http://www.stumbleupon.com/" target="_blank"></a></li>
+							<li class="lastfm"><a href="http://www.last.fm/‎" target="_blank"></a></li>
+							<li class="instagram"><a href="http://instagram.com/" target="_blank"></a></li>
+							<li class="skype"><a href="http://www.skype.com/" target="_blank"></a></li>
+							<li class="soundcloud"><a href="https://soundcloud.com/" target="_blank"></a></li> -->
+						</ul>
+					</div>
+				</div>
+				<!-- End Section Social -->
+
+				<header class="span4 nav-wrapper">
+					<div class="row">
+						<figure class="offset1 span2">
+							<a class="index" href="/">
+								<img class="noretina" src="img/logo.png" alt="Panic Station" title="Panic Station">
+								<img class="retina" src="img/logo@2x.png" alt="Panic Station" title="Panic Station">
+							</a>
+						</figure>
+
+						</div>
+						<div class="row">
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">MENU</a>
+							<!-- Begin Navigation -->
+							<nav class="offset1 span2 nav-collapse collapse" id="navigation">
+								<ul class="nav">
+									<li class="current-menu-item active dropdown-submenu pt-mainmenu">
+										<a href="/" data-toggle="dropdown" data-target="#"  class="menu1 dropdown-toggle" >Home <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="current-menu-item current_page_item active"><a href="welcome-1.html" class="menu2" >Welcome 1</a></li>
+											<li class=""><a href="welcome-2.html" class="menu3" >Welcome 2</a></li>
+											<li class=""><a href="welcome-3.html" class="menu4" >Welcome 3</a></li>
+											<li class=""><a href="welcome-4.html" class="menu5" >Welcome 4</a></li>
+											<li class=""><a href="welcome-5.html" class="menu6" >Welcome 5</a></li>
+										</ul>
+									</li>
+									<li class="menu-item dropdown-submenu pt-mainmenu">
+										<a href="#" data-toggle="dropdown" data-target="#"  class="menu7 dropdown-toggle" >Pages <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class=""><a href="about-me.html" class="menu8" >About Me</a></li>
+											<li class=""><a href="about-us.html" class="menu9" >About us</a></li>
+											<li class=""><a href="team.html" class="menu10" >Team Members</a></li>
+											<li class=""><a href="our-office.html" class="menu11" >Our Office</a></li>
+											<li class=""><a href="services.html" class="menu12" >Services</a></li>
+											<li class=""><a href="services-2.html" class="menu13" >Services 2</a></li>
+										</ul>
+									</li>
+									<li class="menu-item dropdown-submenu pt-mainmenu">
+										<a href="#" data-toggle="dropdown" data-target="#" class="menu14 dropdown-toggle" >Works <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class=""><a href="portfolio-1.html" class="menu15" >1 Column</a></li>
+											<li class=""><a href="portfolio-2.html" class="menu16" >2 Columns</a></li>
+											<li class=""><a href="portfolio-3.html" class="menu17" >3 Columns</a></li>
+											<li class=""><a href="portfolio-4.html" class="menu18" >Big images</a></li>
+										</ul>
+									</li>
+
+									<li class="menu-item"><a href="blog.html" class="menu19" >Blog</a></li>
+									<li class="menu-item"><a href="contact.html" class="menu20" >Contact</a></li>
+									
+								</ul>
+							</nav>
+							<!-- End Navigation -->
+						</div>
+						<div class="subnav-layer"></div>
+					</header>
+					<div class="span8 offset4 wrapper">
+						
+						<section id="about-me" class="main show">
+
+							<h1 class="h1">Team</h1>
+
+							<div class="row-fluid">
+								<div class="offset2 span10 wrapper">
+									<h2 class=" h2">Our Staff</h2>
+								</div>
+							</div>
+
+							<div class="content">
+								<div class="row-fluid">
+									<div class="span4">
+										
+										<div class="row-fluid">
+											<div class="span12">
+												<div class="our-team-picture">
+													<img alt="Trevor Smith" src="img/pages/m_01.jpg">
+													<ul class="social-profiles gradient unstyled inline">
+														<li class="dribbble">
+															<a href="#" target="_blank"></a>
+														</li>
+														<li class="linkedin">
+															<a href="#" target="_blank"></a>
+														</li>
+													</ul>
+												</div>
+												<div class="our-team">
+													<h3>
+														Trevor Smith
+													</h3><small><em>Founder / Project Lead</em></small>
+												</div>
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.
+												</p>
+											</div>
+										</div>
+										
+									</div>
+									<div class="span4">
+										
+										<div class="row-fluid">
+											<div class="span12">
+												<div class="our-team-picture">
+													<img alt="Amanda Kliens" src="img/pages/m_02.jpg">
+													<ul class="social-profiles gradient unstyled inline">
+														<li class="twitter">
+															<a href="https://twitter.com/pixelthrone" target="_blank"></a>
+														</li>
+														<li class="vimeo">
+															<a href="#" target="_blank"></a>
+														</li>
+														<li class="facebook">
+															<a href="https://www.facebook.com/pixelthrone" target="_blank"></a>
+														</li>
+														<li class="gplus">
+															<a href="#" target="_blank"></a>
+														</li>
+														<li class="pinterest">
+															<a href="#" target="_blank"></a>
+														</li>
+														<li class="tumblr">
+															<a href="#" target="_blank"></a>
+														</li>
+													</ul>
+												</div>
+												<div class="our-team">
+													<h3>
+														Amanda Kliens
+													</h3><small><em>Graphic Designer</em></small>
+												</div>
+												<p>
+													Nullam vulputate euismod urna non pharetra. Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et.
+												</p>
+											</div>
+										</div>
+										
+									</div>
+									<div class="span4">
+										
+										<div class="row-fluid">
+											<div class="span12">
+												<div class="our-team-picture">
+													<img alt="Carlton Harris" src="img/pages/m_03.jpg">
+													<ul class="social-profiles gradient unstyled inline">
+														<li class="twitter">
+															<a href="#" target="_blank"></a>
+														</li>
+														<li class="facebook">
+															<a href="#" target="_blank"></a>
+														</li>
+														<li class="linkedin">
+															<a href="#" target="_blank"></a>
+														</li>
+													</ul>
+												</div>
+												<div class="our-team">
+													<h3>
+														Carlton Harris
+													</h3><small><em>Developer</em></small>
+												</div>
+												<p>
+													Nullam vulputate euismod urna non pharetra. Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et.
+												</p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+
+						</section>
+
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="container">
+
+					<div class="twitterfeed visible-tablet">
+						<div class="row">
+							<div class="twitter-feed"></div>
+						</div>
+						<div class="row">
+							<div class="twitter-icon">&#62217;</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="copyright offset1 span3">
+							<!-- Footer Navigation -->
+							<!-- <ul id="menu-footer" class="footer-nav unstyled opcty06">
+								<li><a href="#">Terms and Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>  -->
+							
+							<p class="opcty06">© 2013<br>PIXELTHRONE</p>
+
+						</div>
+					</div>
+
+				</div>
+			</footer>
+
+			<div id="lightwindow">
+				<div id="lightwindow-content" class="hide"></div>
+			</div>
+
+			<!-- Begin Mailing List -->
+			<div class="mailing-list-ajax newsletter_form_ajax hide">
+				<a class="close"></a>
+				<div class="container">
+					<div class="row">
+						<div class="offset2 span8">
+							<h1 class="animated delay05 fadeInUp">Join our<br>mailing list</h1>
+							<h2 class="animated delay010 fadeInUp">to stay up date</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="span2 offset1">
+							<div class="message-wrapper">
+								<div class="message">Please enter a valid e-mail</div>
+								<div class="message-arrow"></div>
+							</div>
+						</div>
+						<div class="span6">
+							<form method="post" id="newsletter" action="newsletter.php" class="animated delay15 fadeInUp">
+								<input type="text" class="input-block-level" name="email" placeholder="Your e-mail">
+								<button>- show me your world</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Mailing List -->
+
+			<div id="fb-root"></div>
+
+			<!-- Javascript -->
+			<script>
+
+				Modernizr.load([
+					{ load : 'http://connect.facebook.net/en_US/all.js#xfbml=1' },
+					{ load : 'http://platform.twitter.com/widgets.js' }
+				]);
+
+				/* Config Vars*/
+
+				var config = {
+					"base_color" : "#ffffff",
+					"contact_form_submit" : "contact-form.php",
+					"newsletter_form_submit" : "newsletter-form.php",
+					"pt_twitter_username" : "pixelthrone",
+					"pt_twitter_count" : "3",
+					"pt_twitter_path" : "\/libs\/twitter\/",
+					"portfolio_items_page" : "",
+					"blog_items_page" : "",
+					"google_maps_circle_color" : "#000000",
+					"google_maps_landscape_color" : "#cccccc",
+					"google_maps_water_color" : "#aaaaaa",
+					"google_maps_zoom" : "4",
+					"pt_google_maps_latitude_1" : 39.810745,
+					"pt_google_maps_longitude_1" : -7.512589,
+					"pt_google_maps_title_popover_1" : "",
+					"pt_google_maps_text_popover_1" : "",
+					"pt_google_maps_latitude_2" : "",
+					"pt_google_maps_longitude_2" : "",
+					"pt_google_maps_title_popover_2" : "",
+					"pt_google_maps_text_popover_2" : "",
+					"pt_google_maps_latitude_3" : "",
+					"pt_google_maps_longitude_3" : "",
+					"pt_google_maps_title_popover_3" : "",
+					"pt_google_maps_text_popover_3" : "",
+					"pt_google_maps_latitude_4" : "",
+					"pt_google_maps_longitude_4" : "",
+					"pt_google_maps_title_popover_4" : "",
+					"pt_google_maps_text_popover_4" : ""
+				};
+
+				/* Images for Background Slideshow */
+				var pt_supersized_slides = [
+					{"image" : "img/background/1.jpg"},
+					{"image" : "img/background/2.jpg"},
+					{"image" : "img/background/3.jpg"},
+					{"image" : "img/background/4.jpg"}
+				];
+
+			</script>
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+			<script src="js/vendor/retina-2x/retina.js"></script>
+			<script src="js/plugins.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
+</html>

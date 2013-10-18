@@ -1,0 +1,31 @@
+<perch:before>
+<ul class="hfeed listing"></perch:before>
+<li class="hentry row-fluid">
+    <a href="<perch:blog id="postURL" />" class="blog-normal">
+    <figure class="span6">
+        <perch:if exists="image"><img class="attachment-blog-featured-thumb wp-post-image" src="<perch:blog id="image" type="image" width="246" height="138" crop="true" />" alt="<perch:blog id="postTitle" />" /></perch:if>
+        <span class="gradient"></span>
+    </figure>
+    <div class="span6 blog-title">
+        <h2><perch:blog id="postTitle" /></h2>
+        <p class="subtitle"><em><perch:blog id="postDateTime" format="%d %B %Y" /></em> | <em><perch:blog id="postCommentCount"/></em></p>
+    </div>
+    </a>
+</li>
+<perch:after>
+    </ul>
+
+    <perch:if exists="paging">
+        <div class="paging pagination pagination-centered">
+            Page <perch:blog id="current_page" /> of <perch:blog id="number_of_pages" />
+            <perch:if exists="not_first_page">
+                <a href="<perch:blog id="prev_url" encode="false" />">Previous</a>
+            </perch:if>
+            <perch:if exists="not_last_page">
+                <a href="<perch:blog id="next_url" encode="false" />">Next</a>
+            </perch:if>
+        </div>
+    </perch:if>
+</perch:after>
+
+
